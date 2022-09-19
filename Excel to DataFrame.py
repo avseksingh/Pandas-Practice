@@ -9,7 +9,9 @@ data=[runs,wickets]
 index=["Runs","Wickets"]
 df=pd.DataFrame(data,index)
 print(df)
-# df.to_csv("h:\\csv\\scores.csv")
+csvData = pd.read_csv("F:\\Pandas-Practice\\ProjectDataExtractionandTextAnalysis\\input.csv")
+print(csvData)
+
 # df.to_excel("h:\\csv\\scores.xlsx")
 # x=pd.read_csv("h:\\csv\\scores.csv")
 # print(x)
