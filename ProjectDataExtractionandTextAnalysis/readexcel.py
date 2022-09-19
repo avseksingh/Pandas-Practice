@@ -14,10 +14,10 @@ for url in l:
                 print(type(data))
 
                 title = an.GetTitle(data)
-                print(title[0].text)
+                print("Title : ",title[0].text)
 
                 p = an.GetParagraphs(data)
-                print(p[0].text)
+                print("Paragraph : ",p[0].text)
 
                 dw.SaveFile(filename,data)
 
