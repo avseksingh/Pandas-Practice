@@ -14,6 +14,16 @@ def GetDivs(html):
         n = n + 1
     return divisions
 
+def GetBody(html):
+    scraper = bs(html, 'html.parser')
+    divs = scraper.find_all("body")
+    divisions = {}
+    n = 0
+    for div in divs:
+        divisions[n] = divs[n]
+        n = n + 1
+    return divisions
+
 
 def GetHeadings(html):
     scraper = bs(html, 'html.parser')
