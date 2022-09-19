@@ -9,9 +9,19 @@ l = list(data._get_column_array(0))
 for url in l:
         try:
                 filename=ex.getFileName(url)
+                print(filename)
                 data=str(dw.getUrlContent(url))
+                print(type(data))
+
+                title = an.GetTitle(data)
+                print(title[0].text)
+
                 p = an.GetParagraphs(data)
-                dw.SaveFile(filename,p)
+                print(p[0].text)
+
+                dw.SaveFile(filename,data)
+
+                break
 
         except:
                 pass

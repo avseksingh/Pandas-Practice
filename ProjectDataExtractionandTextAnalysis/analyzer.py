@@ -36,6 +36,16 @@ def GetParagraphs(html):
         n = n + 1
     return headings
 
+def GetTitle(html):
+    scraper = bs(html, 'html.parser')
+    h1s = scraper.find_all("title")
+    headings = {}
+    n = 0
+    for h1 in h1s:
+        headings[n] = h1s[n]
+        n = n + 1
+    return headings
+
 
 def GetImages(html, siteurl):
     siteurl = gl.getDomainName(siteurl)
@@ -64,6 +74,7 @@ def GetImages(html, siteurl):
 def GetImagesAlt(html):
     scraper = bs(html, 'html.parser')
     h1s = scraper.find_all("img")
+
     headings = {}
     n = 0
 
