@@ -7,8 +7,8 @@ for filename in os.listdir("F:\\Pandas-Practice\\ProjectDataExtractionandTextAna
     File_object = open(url,  "r+")
     print(File_object)
     #
-    # file1 = open( "F:\\Pandas-Practice\\ProjectDataExtractionandTextAnalysis\\html\\www.google.com.txt")
-    # # print(file1.read())
+    file1 = open( url)
+    print(file1.read())
 
     title = an.GetTitle(File_object)
     print("Title :",title[0].text)

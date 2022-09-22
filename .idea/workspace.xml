@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4bf62ca-1fd9-4f1e-ae05-9e508489cd2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/numpyPractice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectDataExtractionandTextAnalysis/html/www.google.com.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectDataExtractionandTextAnalysis/html/www.google.com.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectDataExtractionandTextAnalysis/readFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectDataExtractionandTextAnalysis/readFile.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ProjectDataExtractionandTextAnalysis/readFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="153">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -49,8 +48,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProjectDataExtractionandTextAnalysis/analyzer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProjectDataExtractionandTextAnalysis/getlinks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -102,10 +113,10 @@
         <option value="$PROJECT_DIR$/ProjectDataExtractionandTextAnalysis/test.py" />
         <option value="$PROJECT_DIR$/Excel to DataFrame.py" />
         <option value="$PROJECT_DIR$/ProjectDataExtractionandTextAnalysis/readexcel.py" />
-        <option value="$PROJECT_DIR$/ProjectDataExtractionandTextAnalysis/readFile.py" />
         <option value="$PROJECT_DIR$/ProjectDataExtractionandTextAnalysis/analyzer.py" />
         <option value="$PROJECT_DIR$/ProjectDataExtractionandTextAnalysis/jsonToDict.py" />
         <option value="$PROJECT_DIR$/numpyPractice.py" />
+        <option value="$PROJECT_DIR$/ProjectDataExtractionandTextAnalysis/readFile.py" />
       </list>
     </option>
   </component>
@@ -156,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.readexcel (1)">
+  <component name="RunManager" selected="Python.readFile">
     <configuration name="Excel to DataFrame" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pandas-Practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -264,10 +275,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.readFile" />
         <item itemvalue="Python.readexcel (1)" />
         <item itemvalue="Python.numpyPractice" />
         <item itemvalue="Python.jsonToDict" />
-        <item itemvalue="Python.readFile" />
         <item itemvalue="Python.Excel to DataFrame" />
       </list>
     </recent_temporary>
@@ -286,8 +297,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -295,7 +305,7 @@
       <window_info id="aws.explorer" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44334975" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44334975" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -334,16 +344,6 @@
     <entry file="file://$PROJECT_DIR$/Project Data Extraction and Text Analysis/excelfiles.py" />
     <entry file="file://$PROJECT_DIR$/Project Data Extraction and Text Analysis/readexcel.py" />
     <entry file="file://$PROJECT_DIR$/ProjectDataExtractionandTextAnalysis/insights.blackcoffer.comai-healthcare-revolution-ml-technology-algorithm-google-analytics-industrialrevolution.txt" />
-    <entry file="file://$PROJECT_DIR$/ProjectDataExtractionandTextAnalysis/getlinks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProjectDataExtractionandTextAnalysis/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -381,16 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectDataExtractionandTextAnalysis/analyzer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProjectDataExtractionandTextAnalysis/jsonToDict.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -415,10 +405,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectDataExtractionandTextAnalysis/readFile.py">
+    <entry file="file://$PROJECT_DIR$/ProjectDataExtractionandTextAnalysis/analyzer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectDataExtractionandTextAnalysis/getlinks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectDataExtractionandTextAnalysis/readFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
